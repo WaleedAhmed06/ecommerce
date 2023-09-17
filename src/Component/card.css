@@ -1,0 +1,101 @@
+#line{
+    background-color: black;
+    width: 60px;
+    height: 2px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}   
+
+.card{
+text-align:center;
+margin-top: 100px;
+letter-spacing:2px;
+font-family:"Poppins", sans-serif ;
+}
+.card h1{
+   letter-spacing: 2.5px;
+}
+.card p{
+    text-align:center;
+    margin-top: 30px;
+   
+    line-height: 30px;
+    letter-spacing:2px;
+    font-family:"Poppins", sans-serif ;
+    color: #9e9ca4;
+}
+.btn1 {
+    background-color: #007bff;
+    margin-bottom: 5%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;}
+    .card1{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+.box{
+        width: 25%;
+        background-color:white;
+        color: black;
+        padding: 4%;
+        border: 2px solid black;
+        margin: 2%;  
+        border-radius: 5%;
+        text-align: center;
+} 
+.box img{
+        width: 150px;
+        height:150px;
+       }
+#title{
+        font-size: 20px;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        font-family:'Oswald', sans-serif ;
+        font-weight: 900;
+        color: #007bff;
+        text-transform: uppercase;
+} 
+
+  .container{
+        display: grid; 
+        width: 80%;
+        grid-template-rows:200fr 200fr 200fr;  
+        grid-template-columns:200fr 200fr 200fr;  
+        margin: 0 auto; /* Center horizontally */
+        box-shadow: 2px 2px 15px 1px rgb(235, 235, 235);
+        border-radius: 20px;
+    }
+.item{
+        width:350fr ;
+        margin: 2%;
+        background-color:white;
+        color: black;
+        padding: 4%;
+        border: 2px solid black;  
+        border-radius: 5%;
+        text-align: center;
+} 
+.item img{
+        width: 200px;
+        height: 200px;
+       }
+#title{
+        font-size: 20px;
+        padding-bottom: 5%;
+        padding-top: 10%;
+        font-family:'Oswald', sans-serif ;
+        font-weight: 900;
+        color: #007bff;
+        text-transform: uppercase;
+} 
+      
